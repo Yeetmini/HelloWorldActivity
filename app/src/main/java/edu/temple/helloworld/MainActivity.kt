@@ -10,17 +10,21 @@ class MainActivity : AppCompatActivity() {
 
     // Declare view properties - the first one is done for you
     lateinit var displayTextView: TextView
-
+    lateinit var editText: EditText
+    lateinit var clickMeButton: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         // Initialize with views defined in Layout - the first one is done for you
         displayTextView = findViewById(R.id.displayTextView)
+        editText = findViewById(R.id.nameEditText)
+        clickMeButton = findViewById(R.id.clickMeButton)
 
         
         // Respond to button click event per specifications
 
 
     }
+
 }
