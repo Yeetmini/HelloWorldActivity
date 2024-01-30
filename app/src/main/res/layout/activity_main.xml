@@ -19,9 +19,11 @@
         android:id="@+id/clickMeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:text="Click Me"
-        tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="340dp" />
+        app:layout_constraintEnd_toEndOf="@+id/nameEditText"
+        app:layout_constraintStart_toStartOf="@+id/nameEditText"
+        app:layout_constraintTop_toBottomOf="@+id/nameEditText" />
 
     <EditText
         android:id="@+id/nameEditText"
